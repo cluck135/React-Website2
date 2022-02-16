@@ -1,18 +1,18 @@
-import profileImg from "../assets/profile-photo.jpg"
+import profileImg from "../assets/about/profile-photo.jpg"
 
 function About(props) {
 
 
   return (
-    <section className="bg-oxford flex justify-around relative h-[800px]">
-      <div className="relative w-1/4">
+    <section className="bg-oxford flex justify-around relative w-full h-[600px]">
+      <div className="relative w-1/3 h-fit">
         <div className="bg-cornflower absolute top-10 left-10 w-fit h-fit shadow-xl shadow-lavender rounded-3xl p-5 m-5">
           <img src={profileImg} className="object-contain h-[400px] rounded-3xl"></img>
         </div>
       </div>
-      <div className="relative w-2/3">
+      <div className="relative w-2/3 h-fit">
         <div className="bg-cornflower flex flex-col items-center absolute top-40 left-0 w-3/4 h-fit shadow-xl shadow-lavender rounded-xl m-5">
-          <div className="text-white text-3xl w-full border-b-2 border-lavender p-5">
+          <div className="text-white text-3xl w-full border-b-2 border-lavender p-5 rounded-b-xl">
             About Me
           </div>
           <div className="text-white p-5">

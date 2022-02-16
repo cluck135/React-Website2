@@ -4,12 +4,12 @@ import Page from "./components/Page";
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("About");
 
   return (
-    <div className="App" className="bg-">
-      <header className="App-header">
-        <Nav setCurrentPage={setCurrentPage}/>
+    <div>
+      <header>
+        <Nav setCurrentPage={setCurrentPage} currentPage={currentPage}/>
       </header>
       <main>
         <Page currentPage={currentPage}></Page>
