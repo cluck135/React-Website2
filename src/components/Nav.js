@@ -20,7 +20,7 @@ function Nav({ currentPage, setCurrentPage}) {
 				</ul>
 			</div>
 			<div>
-				<img src={coverImg} className="object-cover w-full h-[350px]"></img>
+				<img src={coverImg} className="object-cover w-full h-[300px]"></img>
 			</div>
 			{/* <div class="relative w-40 h-40 rounded-full overflow-hidden">
   					<img src={coverImg} alt="Avatar" class="object-cover w-full h-full" />

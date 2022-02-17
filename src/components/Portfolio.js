@@ -43,13 +43,21 @@ function Portfolio(props) {
   ])
 
   return (
-    <div className="flex flex-wrap bg-oxford text-dark">
-      {projects.map((project, idx) => (
-        <Project
-          project={project}
-          key={"project" + idx}
-        />
-      ))}
+    <div>
+      <div className="bg-oxford text-white text-4xl p-5">
+        <div className="bg-cornflower w-fit p-3 rounded-xl shadow-md shadow-white">
+        Portfolio
+        </div>
+      </div>
+      <div className="flex flex-wrap justify-center bg-oxford text-dark">
+        
+        {projects.map((project, idx) => (
+          <Project
+            project={project}
+            key={"project" + idx}
+          />
+        ))}
+      </div>
     </div>
   )
 }
