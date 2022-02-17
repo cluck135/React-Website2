@@ -19,7 +19,7 @@ function Portfolio(props) {
     {
       name: 'note-taker',
       description: 'Express/Node',
-      link: "https://tranquil-woodland-59466.herokuapp.com/",
+      link: "https://note-taker-app-121212.herokuapp.com/",
       repo: "https://github.com/cluck135/Express.js-Note-Taker"
     },
     {
