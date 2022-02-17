@@ -7,7 +7,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState("About");
 
   return (
-    <div>
+    <div className="font-mono">
       <header>
         <Nav setCurrentPage={setCurrentPage} currentPage={currentPage}/>
       </header>

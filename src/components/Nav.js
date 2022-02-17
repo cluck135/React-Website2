@@ -13,7 +13,7 @@ function Nav({ currentPage, setCurrentPage}) {
 				<h1 className="text-5xl p-5 bg-cornflower mx-5 rounded-xl shadow-lg shadow-white">Casen Luck</h1>
 				<ul className="grow flex justify-end items-center h-20 text-3xl ">
 					{navLinks.map((link) => (
-					<li className={`p-2 bg-cornflower mx-5 rounded-xl ${currentPage === link ? "shadow-lg shadow-lavender" : "hover:shadow-lg hover:shadow-lavender"}`} onClick={() => setCurrentPage(link)}>
+					<li className={`p-2 bg-cornflower mx-5 rounded-xl ${currentPage === link ? "shadow-lg shadow-lavender" : "hover:shadow-lg hover:shadow-lavender transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"}`} onClick={() => setCurrentPage(link)}>
 						{link}
 					</li>
 					))}
