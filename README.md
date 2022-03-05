@@ -29,7 +29,7 @@ N/A
 This project is licensed under the terms of the [MIT](https://opensource.org/licenses/MIT) license
 
 ## Deployed App
-[herokuApp](https://react-built-portfolio.herokuapp.com/)
+[herokuApp](https://casen-luck-website.herokuapp.com/)
 
 ## Questions
 My Github Profile: [cluck135](https://github.com/cluck135)
